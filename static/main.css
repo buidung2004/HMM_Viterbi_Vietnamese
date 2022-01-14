@@ -1,0 +1,293 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/* Main section */
+
+#center {
+  text-align: center;
+}
+
+.main {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .title h3 {
+  font-size: 2.3rem;
+  font-weight: 300;
+  margin: 0.8rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.reveal {
+  opacity: 0;
+}
+
+.reveal:hover {
+  opacity: 0.2;
+}
+
+/* menu */
+#menu ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+    }
+#menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+    }
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    }
+#menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+    }
+
+/* Global button style */
+.button {
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: rgb(0, 120, 212);
+  padding: 0.5rem 1.2rem;
+  border-radius: 2px;
+  font-size: 1rem;
+  min-width: 6rem;
+}
+
+.button:hover {
+  background-color: rgb(16, 110, 190);
+}
+
+.button.disabled {
+  pointer-events: none;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+/* Upload box */
+.upload-box {
+  font-size: 0.8rem;
+  color: #666666;
+  cursor: pointer;
+  width: 16rem;
+  height: 10rem;
+  background: #fff;
+  border: 0.1rem dashed #838388;
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem 0 2rem 0;
+}
+
+.upload-box.dragover {
+  /* background-color: grey; */
+  color: #eeeeee;
+  border: 0.1rem solid rgb(0, 120, 212);
+  box-shadow: inset 0 0 0 0.1rem rgb(0, 120, 212);
+}
+
+.upload-box:hover {
+  border-color: rgb(0, 120, 212);
+}
+
+.upload-box #image-preview {
+  max-width: 14rem;
+  max-height: 8rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#image-result {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 20rem;
+}
+
+#image-box {
+  position: relative;
+  width: auto;
+  float: left;
+  margin-bottom: 2rem;
+}
+
+#image-display {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-height: 20rem;
+}
+
+#image-display.loading {
+  filter: brightness(30%);
+}
+
+#pred-score {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pred-student-id {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  margin: 0 auto;
+}
+
+/* Animation */
+#spinner {
+  box-sizing: border-box;
+  stroke: #cccccc;
+  stroke-width: 3px;
+  transform-origin: 50%;
+  animation: line 1.6s cubic-bezier(0.4, 0, 0.2, 1) infinite,
+    rotate 1.6s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(450deg);
+  }
+}
+@keyframes line {
+  0% {
+    stroke-dasharray: 2, 85.964;
+    transform: rotate(0);
+  }
+  50% {
+    stroke-dasharray: 65.973, 21.9911;
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dasharray: 2, 85.964;
+    stroke-dashoffset: -65.973;
+    transform: rotate(90deg);
+  }
+}
+
+/*zoom*/
+.zoom {
+  /* padding: 50px; */
+  /* background-color: white; */
+  transition: transform .2s; /* Animation */
+  width: 70px;
+  height: 70px;
+  margin: 0 0 15px 0;
+  text-align: center;
+  
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+/*index.html style*/
+
+body{
+  font-size:100%;
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1920px auto;
+}
+
+div, a{
+  box-sizing: border-box;
+}
+
+.column1_3 {
+  float: left;
+  width: 33.33vw;
+  font-family: Montserrat, sans-serif;
+  color: #39363b;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#UIT{
+  font-family: Montserrat, sans-serif;
+  color: #39363b;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 27px 0px 36px 0px;
+}
+
+.LOGO{
+  width: 90px;
+  filter: contrast(200%);
+}
+
+#TieuDe{
+  font-family: Montserrat, sans-serif;
+  color: #39363b;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 4px 2px white;
+}
+
+#Lop{
+  font-family: Roboto, sans-serif;
+  color: #39363b;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin: 35px 0px;
+}
+
+#ChuDe{
+  font-family: Roboto, sans-serif;
+  color: #39363b;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#GV-SV{
+  font-family: Montserrat, sans-serif;
+  color: #39363b;
+  font-size: 20px;
+  text-align: center;
+  margin: 35px 0px;
+}
+
+#LuaChon{
+  text-align: center;
+  display: table;
+  clear: both;
+  margin: 0 0 25px 0;
+}

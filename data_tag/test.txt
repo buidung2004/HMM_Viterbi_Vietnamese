@@ -1,0 +1,64 @@
+hai	M
+nghi	V
+phạm	N
+lừa	V
+165	M
+người	N
+sang	V
+Hàn_Quốc	Np
+bị	V
+bắt	V
+.	CH
+
+cướp	V
+vé_số	N
+.	CH
+
+8	M
+luật_sư	N
+đồng_loạt	A
+rời	V
+phiên	N
+xét_xử	V
+Đường_Nhuệ	N
+.	CH
+
+bà	N
+Dương_Thị_Bạch_Diệp	Np
+la_hét	V
+phản_đối	V
+VKS	X
+.	CH
+
+9	M
+tên	N
+cướp	N
+đập	V
+tủ	N
+đựng	V
+trang_sức	N
+.	CH
+
+bà	N
+Dương_Thị_Bạch_Diệp	Np
+không	R
+nộp	V
+chứng_cứ	N
+kêu	V
+oan	A
+.	CH
+
+ba	M
+bất_lợi	A
+pháp_lý	N
+với	E
+người	N
+ngoại_tình	V
+.	CH
+
+tụ_tập	V
+chơi	V
+ma_tuý	N
+trong	E
+biệt_thự	N
+.	CH

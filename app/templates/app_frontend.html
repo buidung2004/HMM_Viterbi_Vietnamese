@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  	<link rel="stylesheet" href="{{ url_for('static', filename='asset_code.css') }}">
+	</head>
+	<body>
+		<h1>GÁN NHÃN TỪ LOẠI</h1>
+
+			<form action="http://localhost:5000/result" method="POST">
+				<label form="description">Sentence:</label>
+				<input type="text" id="description" name="description">
+				<button type="submit" class=cv_btn>Predict</button>
+
+			</form>
+			<br>
+			<br>
+			World Segmentation: {{ text }}
+			<br>
+			<br>
+			Prediction: {{ prediction_text }}
+
+	</body>
+</html>

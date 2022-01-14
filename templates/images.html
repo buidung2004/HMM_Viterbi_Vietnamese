@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% block content %}
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/web/css/font-awesome.min.css">
+</head>
+
+
+<style type="text/css">
+
+    body {
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 1.6rem;
+        background: #fff;
+    }
+
+</style> 
+
+<div id="menu">
+  <ul>
+    <li><a href="/">Trang chủ</a></li>
+  </ul>
+</div>
+
+<div id="wrapper">
+    <div id="page-wrapper">
+        <div class="row">
+            <div class="container">
+                <div id="identitycard" style="margin-top:50px" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="panel-title">Nhập câu bất kỳ, có dấu chấm cuối câu</div>
+                        </div>
+                        
+        <form method="POST">
+            <label form="sentence">Sentence:</label>
+            <input name="sentence" id="sentence">
+            <button type="submit" class=cv_btn>Predict</button>
+        </form>
+        <br>
+		<br>
+        Prediction: {{ prediction_text }}
+</div>
+
+
+
+{% endblock %}

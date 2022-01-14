@@ -1,0 +1,454 @@
+nhiều	A
+người	N
+Hà_Nội	Np
+phải	V
+làm	V
+lại	V
+căn_cước	N
+công_dân	N
+gắn	V
+chíp	N
+.	CH
+
+tìm	V
+tội_phạm	N
+từ	E
+dấu_vết	N
+hiện_trường	N
+.	CH
+
+nữ	N
+giám_đốc	N
+ngân_hàng	N
+tham_ô	V
+2600	M
+lượng	N
+vàng	N
+.	CH
+
+nữ	N
+đại_gia	N
+Vũng_Tàu	Np
+bị	V
+bắt	V
+.	CH
+
+sai_phạm	V
+đất	N
+vàng	N
+ở	E
+Nha_Trang	Np
+.	CH
+
+người	N
+đàn_bà	N
+dí	V
+dao	N
+trong	E
+quỹ_tín_dụng	N
+bị	V
+phạt	V
+7	M
+năm	N
+tù	N
+.	CH
+
+bà	N
+Dương_Thị_Bạch_Diệp	Np
+bị	V
+tuyên_án	V
+chung_thân	V
+.	CH
+
+cựu	Z
+cục	N
+phó	N
+quản_lý	N
+thị_trường	N
+Trần_Hùng	Np
+bị	V
+điều_tra	V
+nhận	V
+hối_lộ	V
+.	CH
+
+cựu	X
+chủ_tịch	N
+TP	X
+Trà_Vinh	Np
+hầu	V
+toà	N
+.	CH
+
+chém	V
+chết	V
+người	N
+khi	N
+bênh	V
+mẹ	N
+.	CH
+
+nâng_cấp	V
+tiếng	N
+anh	N
+11	M
+với	E
+giáo_viên	N
+Âu_Mỹ	Np
+ngay	I
+tại	E
+nhà	N
+.	CH
+
+tội_ác	N
+của	E
+ca_sĩ	N
+nghèo	A
+.	CH
+
+phiên_toà	N
+cạn	A
+tình	N
+phụ_tử	N
+của	E
+triệu_phú		N
+hết	R
+thời	N
+.	CH
+
+lon	N
+bia	N
+trong	E
+thùng	N
+rác	A
+giúp	V
+phá	V
+vụ	N
+án	N
+bế_tắc	A
+25	M
+năm	N
+.	CH
+
+màn_kịch	N
+giấu	V
+tội	N
+của	E
+giáo_sư	N
+kinh_tế	N
+danh_tiếng	N
+.	CH
+
+8	M
+ngộ_nhận	V
+tai_hại	A
+của	E
+người	N
+đi	V
+bộ	N
+khi	N
+tham_gia	V
+giao_thông	N
+.	CH
+
+khách	N
+không	R
+trả	V
+tiền	N
+chủ	N
+quán	N
+có	R
+được	V
+giam_lỏng	V
+.	CH
+
+nộp	V
+phạt	V
+vi_phạm	V
+giao_thông	N
+muộn	A
+có	R
+bị	V
+tính	V
+lãi	N
+.	CH
+
+thời_gian	N
+tập_sự	N
+của	E
+giáo_viên	N
+có	R
+được	V
+tính	V
+phụ_cấp	V
+thâm_niên	N
+.	CH
+
+hội_chứng	N
+không	R
+nghèo	A
+nhưng	C
+thích	V
+trộm_cắp	V
+.	CH
+
+Đường_Nhuệ	Np
+lĩnh	V
+15	M
+năm	N
+tù	N
+trong	E
+vụ	N
+ăn_chặn	V
+tiền	N
+hỏa_táng	V
+.	CH
+
+ông	N
+Nguyễn_Thành_Tài	Np
+tôi	P
+không	R
+phải	V
+kẻ	N
+cơ_hội	N
+.	CH
+
+kẻ	N
+đốt	V
+xác	N
+chủ_nợ	N
+ở	E
+Hải_Dương	Np
+lĩnh	V
+án	N
+tử_hình	N
+.	CH
+
+nữ	N
+giám_đốc	N
+lãnh	N
+án	N
+chung_thân	A
+vì	C
+chiếm_đoạt	V
+20	M
+tỷ	M
+đồng	N
+.	CH
+
+câu_đố	N
+Suy_luận	N
+âm_mưu	N
+trong	E
+vụ	N
+tai_nạn	N
+giao_thông	N
+.	CH
+
+luật_sư	N
+đề_nghị	V
+trả	V
+hồ_sơ	N
+cáo_buộc	V
+bà	N
+Dương_Thị_Bạch_Diệp	Np
+.	CH
+
+túi	N
+sữa	N
+mẹ	N
+khiến	V
+cảnh_sát	N
+thay_đổi	V
+kết_luận	N
+điều_tra	V
+.	CH
+
+khiêng	V
+quan_tài	N
+đến	V
+nhà	N
+con_nợ	N
+.	CH
+
+bị_cáo	N
+vụ	N
+đốt	V
+xác	N
+chủ_nợ	N
+khai	V
+phạm_tội	V
+vì	E
+trả	V
+lãi	V
+cao	A
+.	CH
+
+sẽ	R
+đẩy	V
+nhanh	A
+điều_tra	V
+sai_phạm	V
+trong	E
+y_tế	N
+.	CH
+
+phạt	V
+tù	N
+nữ_sinh	N
+thuê	V
+nhà	N
+cho	E
+người	N
+Trung_Quốc	Np
+nhập_cảnh	V
+trái_phép	A
+.	CH
+
+bà	N
+Dương_Thị_Bạch_Diệp	Np
+la_hét	V
+phản_đối	V
+VKS	X
+.	CH
+
+truy_sát	V
+sau	N
+trận	N
+bóng	N
+ở	E
+Sài_Gòn	Np
+.	CH
+
+8	M
+luật_sư	N
+đồng_loạt	A
+rời	V
+phiên	N
+xét_xử	V
+Đường_Nhuệ	Np
+.	CH
+
+Đường_Nhuệ	Np
+lĩnh	V
+15	M
+năm	N
+tù	V
+trong	E
+vụ	N
+ăn_chặn	V
+tiền	N
+hỏa_táng	V
+.	CH
+
+bà	N
+Dương_Thị_Bạch_Diệp	Np
+nộp	V
+bí_mật	A
+khoản	N
+vay	V
+67000	M
+lượng	N
+vàng	N
+cho	E
+toà	N
+.	CH
+
+cặp	N
+vợ_chồng	N
+gian_lận	A
+20	M
+triệu	M
+USD	N
+cứu_trợ	V
+Covid19	Np
+.	CH
+
+ngáo	V
+đá	N
+xông	V
+vào	E
+công_ty	N
+đe	V
+doạ	N
+nhân_viên	N
+.	CH
+
+giam_lỏng	V
+khách_hàng	N
+vì	E
+không	R
+dùng	V
+dịch_vụ	N
+thẩm_mỹ	N
+.	CH
+
+truy_sát	V
+sau	N
+trận	N
+bóng	N
+ở	E
+Sài_Gòn	Np
+.	CH
+
+thời_gian	N
+tập_sự	N
+của	E
+giáo_viên	N
+có	V
+được	V
+tính	V
+phụ_cấp	V
+thâm_niên	N
+.	CH
+
+ba	M
+cán_bộ	N
+lập	V
+khống	V
+hồ_sơ	N
+công_trình	N
+thuỷ_lợi	N
+.	CH
+
+thiếu_niên	N
+tham_gia	V
+tấn_công	V
+báo_điện_tử	N
+VOV	Np
+.	CH
+
+Đường_Nhuệ	Np
+khai	V
+bị	V
+mang_tiếng	V
+ăn	V
+tiền	N
+trên	E
+xác_chết	N
+.	CH
+
+Trương_Châu_Hữu_Danh	Np
+xin	V
+giảm	V
+án	N
+.	CH
+
+luật_sư	N
+nêu	V
+bất_thường	A
+trong	E
+cáo_buộc	V
+bà	N
+Dương_Thị_Bạch_Diệp	Np
+.	CH
+
+câu_đố	N
+tinh_ý	A
+phát_hiện	V
+manh_mối	N
+vụ	N
+án	N
+qua	V
+hình_vẽ	N
+.	CH

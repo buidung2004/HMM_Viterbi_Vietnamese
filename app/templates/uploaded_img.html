@@ -1,0 +1,124 @@
+{% extends "base.html" %} {% block content %}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="static/web/css/font-awesome.min.css">
+
+<style>
+    body {
+        /* padding: 20px; */
+        font-family: 'Fira Sans', sans-serif;
+        background: #fff;
+        }
+    img {
+        width: 100%; /* need to overwrite inline dimensions */
+        height: auto;
+        }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 1em;
+        }
+
+        /* hover styles */
+    .location-listing {
+        position: relative;
+        }
+
+    .location-image {
+        line-height: 0;
+        overflow: hidden;
+        }
+
+    .location-image img {
+        filter: blur(0px);
+        transition: filter 0.3s ease-in;
+        transform: scale(1.1);
+        }
+
+    .location-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity .5s;
+        background: rgba(90,0,10,0.4);
+        color: white;
+        
+        /* position the text in t’ middle*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+    .location-listing:hover .location-title {
+        opacity: 1;
+        }
+
+    .location-listing:hover .location-image img {
+        filter: blur(2px);
+        }
+
+
+    /* for touch screen devices */
+    @media (hover: none) { 
+    .location-title {
+            opacity: 1;
+    }
+    .location-image img {
+            filter: blur(2px);
+        }
+    }
+</style>
+
+<div id="menu">
+  <ul>
+    <li><a href="/">Trang chủ</a></li>
+    <li><a href="/images">Nhập bằng hình ảnh</a></li>
+    <li><a href="/videos">Nhập bằng video</a></li>
+    <li><a href="https://github.com/buidung2004/CS114.L21/blob/main/Capstone%20Project/CapstoneProject.ipynb">Kết quả nghiên cứu</a></li>
+  </ul>
+</div>
+
+<div class="main">
+    <div class="title">
+        <h3>Xử lý thành công.</h3>
+        <!-- <p>
+        <small>A web app demo</small>
+        </p> -->
+    </div>
+    
+    <div class="child-page-listing">
+        <h2>Kết quả</h2>
+        <div style="margin-bottom: 2rem;">
+            <!-- <a href="../static/results_images/result.xlsx" download>
+                <input type="button" value="Kết quả Excel" class="button"/>
+            </a> -->
+        </div>
+        <div class="grid-container">
+            {% for i in list_imgs %}
+                {% set img = list_imgs[loop.index-1] %}
+                <article id="3685" class="location-listing">
+                <a class="location-title" href=" {{ "./static/results_images/" + img}} " download>
+                  DOWNLOAD
+                </a>
+                <div class="location-image">
+                    <a href="#">
+                        <img width="400" height="250" src=" {{ "./static/preview/" + img}} ">    </a>
+                </div>
+                </article>
+            {% endfor %}
+        </div>
+        <!-- end grid container -->
+    </div>
+</div>
+
+{% endblock %}
